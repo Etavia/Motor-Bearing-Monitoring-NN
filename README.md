@@ -7,7 +7,16 @@ Sound of the motors was recorded earlier and sound processing was continued with
 
 ![frequency plot](https://user-images.githubusercontent.com/55585889/123843032-1931c000-d91a-11eb-96f7-75dc724c0ce7.png)
 
-Feedforward neural network was used.
+Data of faulty and normal signals is then used to train feedforward neural network. Pattern of signals is so clear that network reaches nearly 100 % accuracy in less than 10 epochs.
+
+Summary of code flow:
+1. Load sound data
+2. Split sound data to 100 samples stored in a matrix
+3. Convert samples from time domain to frequency domain by using FFT
+4. Downsample signal to 20 samples by getting highest value from sampling window
+5. Plot signal from each step to demonstrate what has been done so far
+6. Train neural network
+7. Print result of performance test
 
 Advantages of machine learning:
 - Can be trained to detect different kind of fault categories like bearing, stator winding, load and rotor bar
