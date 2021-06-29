@@ -28,6 +28,6 @@ https://www.youtube.com/watch?v=YBFgkpnamAI
 
 Repository contains MATLAB code and pre-recorded 5 second samples of faulty motor and normal motor in MATLAB audio format.
 
-Prerequisites
+Prerequisites for using this code
 - Matlab
 - Deep learning toolbox
