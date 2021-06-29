@@ -9,7 +9,7 @@ Sound of the motors was recorded earlier and sound processing was continued with
 
 Data of faulty and normal signals is then used to train feedforward neural network. Pattern of signals is so clear that network reaches nearly 100 % accuracy in less than 10 epochs.
 
-Summary of code flow:
+Summary of code flow
 1. Load sound data
 2. Split sound data to 100 samples stored in a matrix
 3. Convert samples from time domain to frequency domain by using FFT
@@ -18,7 +18,7 @@ Summary of code flow:
 6. Train neural network
 7. Print result of performance test
 
-Advantages of machine learning:
+Advantages of machine learning
 - Can be trained to detect different kind of fault categories like bearing, stator winding, load and rotor bar
 - Can be trained to analyze different signals than sound like vibration for instance
 - Method can be applied to many other applications than electric motors 
