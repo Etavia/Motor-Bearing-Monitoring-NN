@@ -23,7 +23,7 @@ Advantages of machine learning:
 - Can be trained to analyze different signals than sound like vibration for instance
 - Method can be applied to many other applications than electric motors 
 
-Video about laboratory setting of normal and faulty motor. Detecting obvious fault by listening is easy. See if you can hear which motor is healty and which one is faulty.
+Video about laboratory setting of normal and faulty motor. Detecting obvious fault by listening is easy. See if you can hear which motor is healthy and which one is faulty.
 https://www.youtube.com/watch?v=YBFgkpnamAI
 
 Repository contains MATLAB code and pre-recorded 5 second samples of faulty motor and normal motor in MATLAB audio format.
